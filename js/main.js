@@ -88,7 +88,6 @@ searchBtn.onclick = function ()
         })
     }
     displyPosts()
-    console.log(posts);
 }
 
 function editInputs()
