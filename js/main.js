@@ -67,7 +67,7 @@ function displyPosts()
     document.getElementById('weatherData').innerHTML = cartona;
 }
 
-searchInput.onkeyup = function ()
+searchBtn.onclick = function ()
 {
     if (searchInput.value)
     {
@@ -78,18 +78,17 @@ searchInput.onkeyup = function ()
             if (httpReq.readyState == 4)
             {
                 posts = JSON.parse(httpReq.response);
+                let background = document.querySelector('.content');
+                background.style.cssText =`background-image: url(../img/${searchInput.value}.jpg)`;
+            }
+            else
+            {
+                background.style.cssText =`background-image: url(../img/banner.png)`;
             }
         })
     }
-    console.log(searchInput.value);
     displyPosts()
     console.log(posts);
-}
-
-searchBtn.onclick = function ()
-{
-    let background = document.querySelector('.content');
-    background.style.cssText =`background-image: url(../img/${searchInput.value}.jpg)`;
 }
 
 function editInputs()
