@@ -1,0 +1,32 @@
+@media screen and (max-width:600px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+    .mynav ul ul li
+    {
+        width: 40% !important;
+        margin: auto !important;
+    }
+}
+@media screen and (min-width:601px) and ( max-width:768px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+}
+@media screen and (min-width:769px) and ( max-width:992px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+}
