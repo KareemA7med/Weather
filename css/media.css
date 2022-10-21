@@ -1,0 +1,115 @@
+@media screen and (max-width:300px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+    .mynav ul ul li
+    {
+        width: 40% !important;
+        margin: auto !important;
+    }
+    .navbar-brand
+    {
+        margin: 0 5px !important;
+    }
+    .mynav
+    {
+        padding: 10px !important;
+    }
+    .content input
+    {
+        width: 120% !important;
+    }
+    .searchBtn
+    {
+        right: -19%;
+        width: 60px;
+    }
+    .subscribeBtn
+    {
+        top: 20%;
+        right: 2%;
+        width: 70px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:600px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+    .mynav ul ul li
+    {
+        width: 40% !important;
+        margin: auto !important;
+    }
+    .content input
+    {
+        width: 100% !important;
+    }
+    .searchBtn
+    {
+        right: 2%;
+    }
+    .subscribeBtn
+    {
+        top: 22%;
+        right: 5%;
+    }
+}
+@media screen and (min-width:601px) and ( max-width:768px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+    .content input
+    {
+        width: 100% !important;
+    }
+    .searchBtn
+    {
+        right: 2%;
+    }
+    .subscribeBtn
+    {
+        right: 3%;
+    }
+}
+@media screen and (min-width:769px) and ( max-width:992px)
+{
+    .vip::after,.mynav ul li a:hover::after
+    {
+        border: none;
+        width: 0px !important;
+        height: 0px !important;
+    }
+    .content input
+    {
+        width: 100% !important;
+    }
+    .searchBtn
+    {
+        right: 2%;
+    }
+    .subscribeBtn
+    {
+        right: 3%;
+    }
+}
+@media screen and (min-width:992px) and ( max-width:1024px)
+{
+    .subscribeBtn
+    {
+        top: 22%;
+        right: 4%;
+    }
+}

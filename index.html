@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header id="header" class="">
+        <nav class="mynav navbar p-5 navbar-expand-lg">
+            <div class="container">
+                <a href="#"><img src="img/logo.png" alt="">
+                    <p class="float-end ms-3 navbar-brand text-white"><span>Weather</span><br><small>tagline goes
+                            here</small></p>
+                </a>
+                <div class="clearfix"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <ul class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2">
+                        <li class="nav-item">
+                            <a id="btnLogOut" class="vip nav-link active me-5 text-white" aria-current="page"
+                                href="#id1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btnLogOut" class="nav-link active me-5 text-white" aria-current="page"
+                                href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btnLogOut" class="nav-link active me-5 text-white" aria-current="page" href="#">Live
+                                cameras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btnLogOut" class="nav-link active me-5 text-white" aria-current="page"
+                                href="#">Photos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="btnLogOut" class="nav-link active me-5 text-white" aria-current="page"
+                                href="#id2">Contact</a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="id1" class="content p-5">
+        <div class="search position-relative">
+            <input id="searchInput" type="search"
+                class="rounded-5 form-control w-75 m-auto mt-5 p-3 border-0 text-white"
+                placeholder="Find your location...">
+            <button id="searchBtn" class="searchBtn text-white">Find</button>
+        </div>
+        <div class="container">
+            <div id="weatherData" class="row g-0 py-5">
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="id2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 subscribe py-5 position-relative">
+                    <input id="subscribeInput" type="search" class="rounded-5 form-control w-100 mt-2 py-3 border-0"
+                        placeholder="Enter your email to subscribe...">
+                    <button class="subscribeBtn text-white">subscribe</button>
+                    <p class="mt-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+                <div class="col-lg-6 contacts text-center mt-5">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,160 @@
+/************************************Navbar*************************************/
+
+.mynav
+{
+    background-color: #1E202B;
+}
+.navbar-brand
+{
+    font-size: 13px;
+}
+.navbar-brand span
+{
+    font-size: 15px;
+    font-weight: 700;
+}
+.vip
+{
+    color: #009ad8 !important;
+}
+.vip::after
+{
+    content: "";
+    border-radius: 40%;
+    border: 3px solid #009ad8;
+    width: 100px !important;
+    height: 30px !important;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.mynav ul li a
+{
+    position: relative;
+}
+.mynav ul li a:hover
+{
+    color: #009ad8 !important;
+}
+.mynav ul li a::after
+{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-radius: 40%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all .5s;
+}
+.mynav ul li a:hover::after
+{
+    border: 3px solid #009ad8;
+    width: 100px;
+    height: 30px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.mynav button 
+{
+    background-color: white !important;
+}
+.mynav button span
+{
+    background-color: white !important;
+}
+
+/************************************Content*************************************/
+
+.content
+{
+    background-image: url(../img/banner.png);
+    background-position: 100% 20%;
+    background-size: cover;
+}
+.content input,.subscribe input
+{
+    background-color: #1E202B;
+}
+.searchBtn,.subscribeBtn
+{
+    width: 100px;
+    height: 48px;
+    border-radius: 30px;
+    position: absolute;
+    right: 13%;
+    top: 8%;
+    background-color: #009ad8;
+    border: none;
+}
+.subscribeBtn
+{
+    right: 4% !important;
+}
+.day
+{
+    background-color: #2D303D;
+    color: #B1C1C8;
+}
+.data
+{
+    background-color: rgba(50, 53, 67,.5);
+    color: white;
+}
+.data h2
+{
+    font-size: 85px;
+}
+.data h4
+{
+    font-size: 18px;
+    color: #B1C1C8;
+}
+.data h5
+{
+    font-size: 15px;
+    color: #009ad8;
+}
+.data p ,footer p
+{
+    color: #B1C1C8;
+}
+.next
+{
+    background-color: rgba(38, 41, 54,.8) ;
+}
+.day2
+{
+    background-color: #222530;
+    color: #B1C1C8;
+}
+
+/************************************Footer*************************************/
+
+footer
+{
+    background-color: #262936;
+}
+.subscribeBtn
+{
+    top: 24%;
+    right: 8%;
+}
+.fa-brands
+{
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    color: #009ad8;
+    background-color: #1E202B;
+    transition: all .5s;
+}
+.fa-brands:hover
+{
+    background-color: #009ad8;
+    color: white;
+}
