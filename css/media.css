@@ -35,6 +35,10 @@
         width: 70px;
         font-size: 15px;
     }
+    .data h2
+    {
+        font-size: 50px;
+    }
 }
 @media screen and (min-width:300px) and (max-width:600px)
 {
@@ -61,6 +65,10 @@
     {
         top: 22%;
         right: 5%;
+    }
+    .data h2
+    {
+        font-size: 60px;
     }
 }
 @media screen and (min-width:601px) and ( max-width:768px)
