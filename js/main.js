@@ -83,58 +83,58 @@ searchInput.onkeyup = function ()
                 if (posts.location.country == 'مصر' || posts.location.country == 'Egypt' )
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/giza.jpg)`;
+                    background.style.cssText =`background-image: url(img/giza.jpg)`;
                 }
                 else if (posts.location.country == 'المملكة العربية السعودية' && posts.location.name == 'مكة' || posts.location.name == 'Mecca')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/mecca.jpg)`;
+                    background.style.cssText =`background-image: url(img/mecca.jpg)`;
                 }
                 else if (posts.location.country == 'المملكة العربية السعودية' || posts.location.country == 'Saudi Arabia')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/SaudiArabia.jpg)`;
+                    background.style.cssText =`background-image: url(img/SaudiArabia.jpg)`;
                 }
                 else if (posts.location.country == 'France'||posts.location.country == 'فرنسا')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/paris.jpg)`;
+                    background.style.cssText =`background-image: url(img/paris.jpg)`;
                 }
                 else if (posts.location.country == 'China'||posts.location.country == 'الصين')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/China.jpg)`;
+                    background.style.cssText =`background-image: url(img/China.jpg)`;
                 }
                 else if (posts.location.country == 'Thailand'||posts.location.country == 'تايلاند')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/Thailand.jpg)`;
+                    background.style.cssText =`background-image: url(img/Thailand.jpg)`;
                 }
                 else if (posts.location.country == 'United States of America'||posts.location.country == 'USA United States of America' ||posts.location.country == 'الولايات المتحدة')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/Washington.jpg)`;
+                    background.style.cssText =`background-image: url(img/Washington.jpg)`;
                 }
                 else if (posts.location.country == 'United Kingdom'||posts.location.country == 'المملكة المتحدة')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/london.jpg)`;
+                    background.style.cssText =`background-image: url(img/london.jpg)`;
                 }
                 else if (posts.location.country == 'United Arab Emirates'||posts.location.country == 'الإمارات العربية المتحدة')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/Dubai.jpg)`;
+                    background.style.cssText =`background-image: url(img/Dubai.jpg)`;
                 }
                 else
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(../img/banner.png)`;
+                    background.style.cssText =`background-image: url(img/banner.png)`;
                 }
             }
             else
             {
                 let background = document.querySelector('.content');
-                background.style.cssText =`background-image: url(../img/banner.png)`;
+                background.style.cssText =`background-image: url(img/banner.png)`;
             }
         })
     }
