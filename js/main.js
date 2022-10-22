@@ -23,7 +23,7 @@ function displyPosts()
         `
         <div class="col-lg-4">
                     <div class="day d-flex justify-content-between p-1">
-                        <p>${days[6]}</p>
+                        <p>${days[0]}</p>
                         <p>${posts.forecast.forecastday[0].date}</p>
                     </div>
                     <div class="data h-100 p-3">
@@ -43,7 +43,7 @@ function displyPosts()
         </div>
         <div class="col-lg-4">
                     <div class="day2 text-center p-1">
-                        <p>${days[0]}</p>
+                        <p>${days[1]}</p>
                     </div>
                     <div class="data next h-100 pt-5 text-center">
                         <img src="${posts.forecast.forecastday[1].day.condition.icon}" alt="" class="my-2">
@@ -54,7 +54,7 @@ function displyPosts()
         </div>
         <div class="col-lg-4">
                     <div class="day text-center p-1">
-                        <p>${days[1]}</p>
+                        <p>${days[2]}</p>
                     </div>
                     <div class="data h-100 pt-5 text-center">
                         <img src="${posts.forecast.forecastday[2].day.condition.icon}" alt="" class="my-2">
