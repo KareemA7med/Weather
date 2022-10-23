@@ -85,15 +85,10 @@ searchInput.onkeyup = function ()
                     let background = document.querySelector('.content');
                     background.style.cssText =`background-image: url(img/giza.jpg)`;
                 }
-                else if (posts.location.country == 'المملكة العربية السعودية' && posts.location.name == 'مكة' || posts.location.name == 'Mecca')
-                {
-                    let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(img/mecca.jpg)`;
-                }
                 else if (posts.location.country == 'المملكة العربية السعودية' || posts.location.country == 'Saudi Arabia')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(img/SaudiArabia.jpg)`;
+                    background.style.cssText =`background-image: url(img/mecca.jpg)`;
                 }
                 else if (posts.location.country == 'France'||posts.location.country == 'فرنسا')
                 {
