@@ -1,7 +1,7 @@
 let httpReq = new XMLHttpRequest(); //0
 let posts = [];
-let days = ['Saturday', 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
-let searchInput=document.getElementById('searchInput')
+let date = new Date();
+let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday','Saturday'];let searchInput=document.getElementById('searchInput')
 let subscribeInput=document.getElementById('subscribeInput')
 let searchBtn=document.getElementById('searchBtn')
 httpReq.open('GET', 'https://api.weatherapi.com/v1/forecast.json?key=b73aee4d88ec4d97b7c12221212804&q=lond&days=7')  //stage 1
@@ -23,7 +23,7 @@ function displyPosts()
         `
         <div class="col-lg-4">
                     <div class="day d-flex justify-content-between p-1">
-                        <p>${days[0]}</p>
+                        <p>${days[date.getDay()]}</p>
                         <p>${posts.forecast.forecastday[0].date}</p>
                     </div>
                     <div class="data h-100 p-3">
@@ -31,7 +31,7 @@ function displyPosts()
                         <p>${posts.location.country}</p>
                         <div class="row">
                         <h2 class="col-sm-8">${posts.current.temp_c}<sup>o</sup>C</h2>
-                        <img class=" col-sm-4" src="${posts.current.condition.icon}" alt="">
+                        <img class=" col-sm-4 postIcon" src="${posts.current.condition.icon}" alt="">
                         </div>
                         <h5 class="my-3">${posts.current.condition.text}</h5>
                         <div class="d-flex justify-content-start">
@@ -43,7 +43,7 @@ function displyPosts()
         </div>
         <div class="col-lg-4">
                     <div class="day2 text-center p-1">
-                        <p>${days[1]}</p>
+                        <p>${days[date.getDay()+1]}</p>
                     </div>
                     <div class="data next h-100 pt-5 text-center">
                         <img src="${posts.forecast.forecastday[1].day.condition.icon}" alt="" class="my-2">
@@ -54,7 +54,7 @@ function displyPosts()
         </div>
         <div class="col-lg-4">
                     <div class="day text-center p-1">
-                        <p>${days[2]}</p>
+                        <p>${days[date.getDay()+2]}</p>
                     </div>
                     <div class="data h-100 pt-5 text-center">
                         <img src="${posts.forecast.forecastday[2].day.condition.icon}" alt="" class="my-2">
