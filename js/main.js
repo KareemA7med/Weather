@@ -88,7 +88,7 @@ searchInput.onkeyup = function ()
                 else if (posts.location.country == 'المملكة العربية السعودية' || posts.location.country == 'Saudi Arabia')
                 {
                     let background = document.querySelector('.content');
-                    background.style.cssText =`background-image: url(img/mecca.jpg)`;
+                    background.style.cssText =`background-image: url(img/Mecca.jpg)`;
                 }
                 else if (posts.location.country == 'France'||posts.location.country == 'فرنسا')
                 {
